@@ -1,5 +1,5 @@
 
-var urlwebapi = "localhost:3000/api/v2/";
+var urlwebapi = "webapiv2.eastus.cloudapp.azure.com:3000/api/v2/";
 
 var Current_token = "";
 var Current_UUID = "";
@@ -8,7 +8,7 @@ var CurrentUser= {};
 //User_Signup("Test5","test","Student","w","e");
 
 function User_Signup(emailin,passwordin,accounttypein,firstnamein,lastnamein){
-    postData('http://localhost:3000/api/v2/Auth/CreateAccount', { email:"emailin",password:"passwordin",accounttype:"accounttypein",firstname:"firstnamein",lastname:"lastnamein" })
+    postData('http://webapiv2.eastus.cloudapp.azure.com:3000/api/v2/Auth/CreateAccount', { email:"emailin",password:"passwordin",accounttype:"accounttypein",firstname:"firstnamein",lastname:"lastnamein" })
         .then((data) => {
             console.log(data); // JSON data parsed by `response.json()` call
             //we Expect the signup to ether return true or false
@@ -24,7 +24,7 @@ function User_Signup(emailin,passwordin,accounttypein,firstnamein,lastnamein){
         });
 }
 function User_login(emailin,passwordin){
-    postData('http://localhost:3000/api/v2/Auth/Login', { email:"emailin",password:"passwordin"})
+    postData('http://webapiv2.eastus.cloudapp.azure.com:3000/api/v2/Auth/Login', { email:"emailin",password:"passwordin"})
         .then((data) => {
             console.log(data); // JSON data parsed by `response.json()` call
             //we Expect the signup to ether return true or false
@@ -45,7 +45,7 @@ function Get_Profile(){
     if(!Current_token){
         return console.log("Error Login First");
     }
-    getData('http://localhost:3000/api/v2/data/profile?token='+Current_token)
+    getData('http://webapiv2.eastus.cloudapp.azure.com:3000/api/v2/data/profile?token='+Current_token)
         .then((data) => {
             console.log(data); // JSON data parsed by `response.json()` call
             //we Expect the signup to ether return true or false
@@ -65,7 +65,7 @@ function POST_Profile(){
     if(!Current_token){
         return console.log("Error Login First");
     }
-    postData('http://localhost:3000/api/v2/data/profile?token='+Current_token, CurrentUser.ProfileData)
+    postData('http://webapiv2.eastus.cloudapp.azure.com:3000/api/v2/data/profile?token='+Current_token, CurrentUser.ProfileData)
         .then((data) => {
             console.log(data); // JSON data parsed by `response.json()` call
             //we Expect the signup to ether return true or false
