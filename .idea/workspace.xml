@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abd5eee1-0771-440c-93de-ee33c52082a7" name="Default Changelist" comment="" />
+    <list default="true" id="abd5eee1-0771-440c-93de-ee33c52082a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/login-register.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/login-register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_register_modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/login_register_modal.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -74,18 +80,36 @@
       <option name="presentableId" value="Default" />
       <updated>1580956113599</updated>
       <workItem from="1580956115262" duration="5643000" />
-      <workItem from="1581353708660" duration="1035000" />
+      <workItem from="1581353708660" duration="1060000" />
+      <workItem from="1583302233896" duration="3080000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Git">
+      <created>1581359557592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581359557592</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Git" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1368" y="365" key="#HTML" timestamp="1581359363712">
       <screen x="-1920" y="186" width="1920" height="1040" />
     </state>
     <state x="-1368" y="365" key="#HTML/0.0.2560.1400/-1920.186.1920.1040@-1920.186.1920.1040" timestamp="1581359363712" />
+    <state x="777" y="39" key="CommitChangelistDialog2" timestamp="1583305329318">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1337" y="215" key="CommitChangelistDialog2/0.0.2560.1400/-1920.186.1920.1040@-1920.186.1920.1040" timestamp="1581359557060" />
+    <state x="777" y="39" key="CommitChangelistDialog2/0.0.2560.1400/-1920.186.1920.1040@0.0.2560.1400" timestamp="1583305329318" />
     <state width="2539" height="470" key="GridCell.Tab.0.bottom" timestamp="1580959118487">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -134,9 +158,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2539" height="470" key="GridCell.Tab.2.right/0.0.2560.1400/-1920.186.1920.1040@0.0.2560.1400" timestamp="1580959118488" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1580958659385">
+    <state x="-1368" y="436" key="Vcs.Push.Dialog.v2" timestamp="1581359559595">
+      <screen x="-1920" y="186" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="436" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.186.1920.1040@-1920.186.1920.1040" timestamp="1581359559595" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1583304650413">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.186.1920.1040@0.0.2560.1400" timestamp="1580958659385" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/-1920.186.1920.1040@0.0.2560.1400" timestamp="1583304650413" />
   </component>
 </project>
